@@ -14,13 +14,16 @@
 				<b>{{$user->theyFollowMe()->count()}}</b> <span style="opacity: 0.8;">Vous suivent</span>
 		  	</span>
 		  	<div class="follow">
-			  	@if(Auth::id() != $user->id)
-					@if(Auth::user()->IFollow->contains($user->id))
-						<a href="/follow/{{$user->id}}"><img src="/images/fav_r.png"/></a><br/>
-					@else
-						<a href="/follow/{{$user->id}}"><img src="/images/fav.png"/></a><br/>
+		  		@auth
+				  	@if(Auth::id() != $user->id)
+						@if(Auth::user()->IFollow->contains($user->id))
+							<a href="/follow/{{$user->id}}"><img src="/images/fav_r.png"/></a><br/>
+						@else
+							<a href="/follow/{{$user->id}}"><img src="/images/fav.png"/></a><br/>
+						@endif
 					@endif
-				@endif
+				@else 
+				@endauth
 			</div>
 		</span>
 	</div>

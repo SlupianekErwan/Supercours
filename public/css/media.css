@@ -1626,13 +1626,13 @@ nav a:hover::before{
 
 .follow {
 	position: absolute;
-	left: 1000px;
+	left: 270px;
 	top: 0;
 }
 
 .follow img {
-	width: 100px;
-	height: 100px;
+	width: 30px;
+	height: 30px;
 }
 
 .suivis { 

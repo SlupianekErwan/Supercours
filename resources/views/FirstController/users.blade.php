@@ -8,7 +8,7 @@
 	  <span class="e68_271">
 	  		{{$user->name}} {{$user->surname}}
 	  		<br/>
-	  		<span style="font-size:20px;">
+	  		<span class="return_in_ligne values">
 			  	<b>{{$user->photos()->count()}}</b> <span style="opacity: 0.8;">Cours mis en ligne</span>
 				<b>{{$user->IFollow()->count()}}</b> <span style="opacity: 0.8;">Vous suivez</span>
 				<b>{{$user->theyFollowMe()->count()}}</b> <span style="opacity: 0.8;">Vous suivent</span>
@@ -26,7 +26,7 @@
 	</div>
 
 @if(Auth::id() != $user->id)
-    <div style="display: flex;">
+    <div class="display_flex_column" style="display: flex;">
         @if ($user->IFollow->isEmpty())
             <p>Aucun utilisateur suivi pour le moment.</p>
         @else
@@ -40,7 +40,7 @@
         @endif
     </div>
 @else
-    <div style="display: flex;">
+    <div class="display_flex_column" style="display: flex;">
         @if (Auth::user()->IFollow->isEmpty())
             <p>Vous ne suivez aucun utilisateur pour le moment.</p>
         @else

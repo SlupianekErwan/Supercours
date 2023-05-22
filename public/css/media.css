@@ -776,6 +776,10 @@ nav a:hover::before{
 	line-height:50px;
 }
 
+.values {
+	font-size:20px;
+}
+
 .follow {
 	position: absolute;
 	left: 1000px;
@@ -1004,7 +1008,7 @@ nav a:hover::before{
 	top:0px;
 	font-family:Bahnschrift;
 	text-align:left;
-	font-size:25px;
+	font-size:20px;
 	letter-spacing:0;
 	text-decoration: none;
 }
@@ -1014,25 +1018,25 @@ nav a:hover::before{
 	width:164px;
 	height:36px;
 	position:absolute;
-	left:295px;
-	top:0px;
+	left:0px;
+	top:30px;
 	font-family:Bahnschrift;
 	text-align:left;
-	font-size:25px;
+	font-size:20px;
 	letter-spacing:0;
 	text-decoration: none;
 }
 
 .ei65_815_33_491 { 
 	color:rgba(0, 0, 0, 1);
-	width:173px;
+	width:110dpx;
 	height:36px;
 	position:absolute;
-	left:529px;
-	top:0px;
+	left:140px;
+	top:30px;
 	font-family:Bahnschrift;
 	text-align:left;
-	font-size:25px;
+	font-size:20px;
 	letter-spacing:0;
 	text-decoration: none;
 }
@@ -1134,7 +1138,7 @@ nav a:hover::before{
 
 .e38_201 { 
 	background-color:rgba(246.0000005364418, 243.00000071525574, 239.00000095367432, 1);
-	width:712px;
+	width:370px;
 	height:1117px;
 	border-radius:Symbol(figma.mixed)px;
 	border-radius: 10px;
@@ -1295,7 +1299,7 @@ nav a:hover::before{
 	overflow:hidden;
 }
 .e113_272 { 
-	width:800px;
+	width:380px;
 	height:232px;
 	padding: 600px 0 0 0;
 	position: relative;
@@ -1303,7 +1307,7 @@ nav a:hover::before{
 .e51_193 { 
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 	background-color:rgba(0, 0, 0, 0.20000000298023224);
-	width:1519.5px;
+	width:375px;
 	height:232px;
 	position:absolute;
 	left:0px;
@@ -1314,14 +1318,14 @@ nav a:hover::before{
 }
 .e51_169 { 
 	color:rgba(255, 255, 255, 1);
-	width:764px;
+	width:375px;
 	height:84px;
 	position:absolute;
-	left:400px;
+	left:0;
 	top:74px;
 	font-family:Bahnschrift;
 	text-align:center;
-	font-size:70px;
+	font-size:35px;
 	letter-spacing:0;
 }
 
@@ -1331,13 +1335,13 @@ nav a:hover::before{
 
 .e52_200 { 
 	top: 400px;
-	left: 250px;
+	left: 0;
 	position:absolute;
 }
 
 .e51_171 { 
 	background-color:rgba(255, 255, 255, 1);
-	width:1000px;
+	width:370px;
 	height:50px;
 	position:absolute;
 	left:0px;
@@ -1350,7 +1354,7 @@ nav a:hover::before{
 
 .e51_172 { 
 	background-color:rgba(255, 255, 255, 1);
-	width:1000px;
+	width:370px;
 	height:50px;
 	position:absolute;
 	left:0px;
@@ -1363,7 +1367,7 @@ nav a:hover::before{
 
 .e51_172_2 { 
 	background-color:rgba(255, 255, 255, 1);
-	width:1000px;
+	width:370px;
 	height:50px;
 	position:absolute;
 	left:0px;
@@ -1375,7 +1379,7 @@ nav a:hover::before{
 }
 
 .e52_199 { 
-	width:1000px;
+	width:370px;
 	height:100px;
 	position:absolute;
 	left:0px;
@@ -1383,7 +1387,7 @@ nav a:hover::before{
 }
 
 .e52_1999 { 
-	width:1000px;
+	width:370px;
 	height:100px;
 	position:absolute;
 	left:0px;
@@ -1393,7 +1397,7 @@ nav a:hover::before{
 .e51_173 { 
 	border: 2px solid;
 	background-color:rgba(255, 255, 255, 1);
-	width:1000px;
+	width:370px;
 	height:100px;
 	position:absolute;
 	left:0px;
@@ -1426,7 +1430,7 @@ nav a:hover::before{
 
 .e71_1795 { 
 	background-image:linear-gradient(90deg, rgba(227.00000166893005, 49.00000087916851, 45.00000111758709, 1) 0%,rgba(78.00000295042992, 62.00000010430813, 145.00000655651093, 1) 100%) ;
-	width:1000px;
+	width:370px;
 	height:46px;
 	position:absolute;
 	left:0px;
@@ -1442,7 +1446,7 @@ nav a:hover::before{
 	width:149px;
 	height:26px;
 	position:absolute;
-	left:425.5px;
+	left:100px;
 	top:10px;
 	font-family:Bahnschrift;
 	text-align:left;
@@ -1454,7 +1458,7 @@ nav a:hover::before{
 	z-index: 1;
 	position:absolute;
 	top: 20px;
-	left: 470px;
+	left: 100px;
 }
 
 /*----------cours----------*/
@@ -1562,15 +1566,15 @@ nav a:hover::before{
 }
 
 .e147_272 { 
-	width:1519px;
-	height:232px;
+	width:370px;
+	height:305px;
 	position:absolute;
 }
 
 .e58_1090 { 
 	background-color:rgba(255, 255, 255, 1);
-	width:1519px;
-	height:232px;
+	width:370px;
+	height:305px;
 	position:absolute;
 	left:0px;
 	top:0px;
@@ -1586,7 +1590,7 @@ nav a:hover::before{
 	width:180px;
 	height:170px;
 	position:absolute;
-	left:43px;
+	left:100px;
 	top:35px;
 	animation-name: rotation;
 	animation-duration: 5s;
@@ -1605,15 +1609,19 @@ nav a:hover::before{
 
 .e68_271 { 
 	color:rgba(0, 0, 0, 1);
-	width:1000px;
+	width:348px;
 	height:72px;
 	position:absolute;
-	left:243px;
-	top:80px;
+	left:30px;
+	top:230px;
 	font-family:Bahnschrift;
-	font-size:60px;
+	font-size:20px;
 	letter-spacing:0;
-	line-height:50px;
+	line-height:30px;
+}
+
+.values {
+	font-size:15px;
 }
 
 .follow {
@@ -1635,15 +1643,8 @@ nav a:hover::before{
 	margin: 450px 0 0 0;
 }
 
-.suivis:hover { 
-	animation: pulse 1s infinite;
-	background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, #E3312D, #4E3E91) border-box;
-    border: 1px solid transparent;
-}
-
 .suivre {
-	margin: 0 0 -450px 100px;
+	margin: 20px 0 -450px 100px;
 }
 
 .suivre h1 {
@@ -1658,17 +1659,21 @@ nav a:hover::before{
 	text-decoration: none;
 	color: black;
 	font-family:Bahnschrift;
-	text-align:center;
+	margin: 0 0 0 10px;
 	display: block;
 	font-size: 25px;
 }
 
 .voscours {
-	top: 860px;
-	left: 100px;
+	top: 1280px;
+	left: 30px;
 	position: absolute;
 	font-family: 'Bahnschrift';
 	font-size: 38px;
+}
+
+.display_flex_column {
+	flex-direction: column;
 }
 
 /*----------404----------*/

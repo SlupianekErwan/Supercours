@@ -2,6 +2,7 @@
 	<html lang="fr">
 	<head>
 	  <link rel="stylesheet" href="/css/style.css">
+	  <link rel="stylesheet" href="/css/media.css">
 	</head>
 	<body class="e38_174">
 
